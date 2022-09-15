@@ -4,3 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #121214;
+    background-image: url(assets/background.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
