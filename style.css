@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body * {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
 body {
     background-color: #121214;
     background-image: url(assets/background.jpg);
