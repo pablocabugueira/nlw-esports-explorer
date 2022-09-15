@@ -55,3 +55,8 @@ section img {
     width: 90px;
     border-radius: 8px;
 }
+
+section ul.channel-list img {
+    border-radius: 50%;
+    width: 70px;
+}
