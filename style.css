@@ -4,15 +4,47 @@
     box-sizing: border-box;
 }
 
-body * {
-    font-family: 'Inter', sans-serif;
-    color: white;
-}
-
 body {
     background-color: #121214;
     background-image: url(assets/background.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: auto;
+    margin-top: 32px;
+    display: grid;
+    gap: 24px;
+}
+
+section div {
+    background-color: #2A2634;
+    padding: 24px 32px 32px 32px;
+}
+
+section h2, p{
+    line-height: 160%;
+}
+
+section p {
+    color: #A1A1AA;
+}
+
+section ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+section img {
+    width: 90px;
+    border-radius: 8px;
 }
