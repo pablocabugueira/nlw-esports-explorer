@@ -31,6 +31,11 @@ div#header {
     border-radius: 50%;
     display: flex;
     padding: 4px;
+    transition: transform .3s;
+}
+
+div#header:hover {
+    transform: scale(1.1);
 }
 
 main {
@@ -70,6 +75,14 @@ section ul {
     margin-top: 24px;
 }
 
+section li {
+    transition: transform .3s;
+}
+
+section li:hover {
+    transform: scale(1.1);
+}
+
 section img {
     width: 90px;
     border-radius: 8px;
@@ -78,4 +91,17 @@ section img {
 section ul.channel-list img {
     border-radius: 50%;
     width: 70px;
+}
+
+/* ANIMATION */
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        
+    }
+
+    to {
+        opacity: 1;
+    }
 }
