@@ -42,7 +42,7 @@ div#header:hover {
 main {
     max-width: 580px;
     width: 90%;
-    margin-top: 32px auto;
+    margin: 32px auto;
     display: grid;
     gap: 24px;
 }
